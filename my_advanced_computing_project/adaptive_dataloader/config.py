@@ -1,30 +1,41 @@
-# adaptive_dataloader/config.py
-# All settings for the baseline training run
-
 class Config:
 
-    # ── Paths ─────────────────────────────────
-    TRAIN_DIR = '/projects/F202500010HPCVLABUMINHO/uminhocp150/DATALOADER_PROJECT/my_advanced_computing_project/data/imagenet/train'
-    VAL_DIR   = '/projects/F202500010HPCVLABUMINHO/uminhocp150/DATALOADER_PROJECT/my_advanced_computing_project/data/imagenet/val'
-    LOG_DIR   = 'logs'
+    TRAIN_DIR = (
+        "/projects/F202500010HPCVLABUMINHO/uminhocp150/"
+        "DATALOADER_PROJECT/my_advanced_computing_project/"
+        "data/imagenet/train"
+    )
+    VAL_DIR = (
+        "/projects/F202500010HPCVLABUMINHO/uminhocp150/"
+        "DATALOADER_PROJECT/my_advanced_computing_project/"
+        "data/imagenet/val"
+    )
+    LOG_DIR = "logs"
 
-    # ── DataLoader ────────────────────────────
-    BATCH_SIZE      = 256
-    NUM_WORKERS     = 8
-    PREFETCH_FACTOR = 2
-    PIN_MEMORY      = True
+    MODEL = "alexnet"
 
-    # ── Training ──────────────────────────────
-    EPOCHS        = 5
-    LEARNING_RATE = 0.1
+    BATCH_SIZE      = 64
+    NUM_WORKERS     = 2
+    PREFETCH_FACTOR = 1
+    PIN_MEMORY      = False
+
+    EPOCHS        = 3
+    LEARNING_RATE = 0.05
     MOMENTUM      = 0.9
     WEIGHT_DECAY  = 1e-4
 
+    BATCH_MIN    = 32
+    BATCH_MAX    = 512
+    WORKERS_MIN  = 2
+    WORKERS_MAX  = 16
+    PREFETCH_MIN = 1
+    PREFETCH_MAX = 1
 
-# test
+
 if __name__ == "__main__":
     print("=== Config ===")
-    print(f"BATCH_SIZE : {Config.BATCH_SIZE}")
-    print(f"NUM_WORKERS: {Config.NUM_WORKERS}")
-    print(f"EPOCHS     : {Config.EPOCHS}")
+    print(f"  MODEL        : {Config.MODEL}")
+    print(f"  EPOCHS       : {Config.EPOCHS}")
+    print(f"  BATCH_MAX    : {Config.BATCH_MAX}")
+    print(f"  PREFETCH_MAX : {Config.PREFETCH_MAX}")
     print("config.py OK")

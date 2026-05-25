@@ -1,0 +1,4 @@
+epoch,train_loss,train_acc,val_acc,throughput_img_per_sec,avg_gpu_util_pct,avg_gpu_idle_pct,avg_vram_used_mb,avg_vram_free_mb,epoch_time_sec,final_batch_size,final_num_workers,final_prefetch_factor,num_adjustments
+1,6.2194,3.35,9.41,439.21,0.2,99.8,4888.5,77031.5,3943.7,256,16,1,10
+2,5.0366,9.22,14.26,518.83,0.33,99.67,4888.5,77031.5,2469.07,256,16,1,0
+3,4.4438,15.6,22.66,503.49,0.43,99.57,4888.5,77031.5,2544.31,256,16,1,0

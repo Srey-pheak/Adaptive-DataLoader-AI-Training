@@ -1,0 +1,4 @@
+epoch,train_loss,train_acc,val_acc,throughput_img_per_sec,avg_gpu_util_pct,avg_gpu_idle_pct,avg_vram_used_mb,avg_vram_free_mb,avg_load_latency_ms,epoch_time_sec
+1,0.6877,0.14,0.21,65.41,0.81,99.19,2732.5,79187.5,4.288,1956.96
+2,0.6752,0.26,0.38,78.06,0.7,99.3,2732.5,79187.5,4.644,1639.74
+3,0.6518,0.52,0.96,81.23,0.75,99.25,2732.5,79187.5,4.07,1575.73

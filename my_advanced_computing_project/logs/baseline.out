@@ -1,0 +1,174 @@
+Job started  : Thu 21 May 08:17:12 WEST 2026
+Node         : gnx501
+Device     : cuda
+GPU        : NVIDIA A100-SXM4-80GB
+VRAM       : 79.1 GB
+Model      : alexnet
+Batch size : 64
+Workers    : 2
+Epochs     : 3
+LR         : 0.05
+Loading dataset...
+Train      : 1,281,167 images
+Val        : 50,000 images
+Classes    : 1000
+Batches/epoch : 20,018
+Loading alexnet...
+Starting training...
+==================================================
+Epoch 1/3 | Step     0 | Loss 6.9063 | Acc 0.00% | GPU 0% | VRAM 2732MB | Latency 6.9ms
+Epoch 1/3 | Step   100 | Loss 6.9083 | Acc 0.22% | GPU 0% | VRAM 2732MB | Latency 4.8ms
+Epoch 1/3 | Step   200 | Loss 6.9081 | Acc 0.19% | GPU 6% | VRAM 2732MB | Latency 4.2ms
+Epoch 1/3 | Step   300 | Loss 6.9083 | Acc 0.15% | GPU 6% | VRAM 2732MB | Latency 4.8ms
+Epoch 1/3 | Step   400 | Loss 6.9084 | Acc 0.13% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 1/3 | Step   500 | Loss 6.9072 | Acc 0.12% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 1/3 | Step   600 | Loss 6.9063 | Acc 0.13% | GPU 0% | VRAM 2732MB | Latency 4.9ms
+Epoch 1/3 | Step   700 | Loss 6.9067 | Acc 0.13% | GPU 0% | VRAM 2732MB | Latency 4.4ms
+Epoch 1/3 | Step   800 | Loss 6.9068 | Acc 0.13% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 1/3 | Step   900 | Loss 6.9052 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.8ms
+Epoch 1/3 | Step  1000 | Loss 6.9040 | Acc 0.13% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 1/3 | Step  1100 | Loss 6.9033 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.3ms
+Epoch 1/3 | Step  1200 | Loss 6.9030 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.9ms
+Epoch 1/3 | Step  1300 | Loss 6.9018 | Acc 0.13% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 1/3 | Step  1400 | Loss 6.8992 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.0ms
+Epoch 1/3 | Step  1500 | Loss 6.8963 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.0ms
+Epoch 1/3 | Step  1600 | Loss 6.8936 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.5ms
+Epoch 1/3 | Step  1700 | Loss 6.8908 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.1ms
+Epoch 1/3 | Step  1800 | Loss 6.8884 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.8ms
+Epoch 1/3 | Step  1900 | Loss 6.8860 | Acc 0.14% | GPU 0% | VRAM 2732MB | Latency 4.6ms
+  Running validation...
+  Val step 0/782
+  Val step 50/782
+  Val step 100/782
+  Val step 150/782
+  Val step 200/782
+  Val step 250/782
+  Val step 300/782
+  Val step 350/782
+  Val step 400/782
+  Val step 450/782
+  Val step 500/782
+  Val step 550/782
+  Val step 600/782
+  Val step 650/782
+  Val step 700/782
+  Val step 750/782
+  Val Acc : 0.21%
+==================================================
+Epoch 1 Summary
+  Loss        : 0.6877
+  Train Acc   : 0.14%
+  Val Acc     : 0.21%
+  Throughput  : 65 img/s
+  GPU Util    : 0.8%
+  Idle Time   : 99.2%
+  VRAM Used   : 2732 MB
+  VRAM Free   : 79188 MB
+  Latency     : 4.3ms
+  Time        : 32.6 min
+==================================================
+Epoch 2/3 | Step     0 | Loss 6.8606 | Acc 0.00% | GPU 0% | VRAM 2732MB | Latency 5.3ms
+Epoch 2/3 | Step   100 | Loss 6.8206 | Acc 0.15% | GPU 0% | VRAM 2732MB | Latency 4.1ms
+Epoch 2/3 | Step   200 | Loss 6.8143 | Acc 0.17% | GPU 0% | VRAM 2732MB | Latency 4.8ms
+Epoch 2/3 | Step   300 | Loss 6.8111 | Acc 0.19% | GPU 0% | VRAM 2732MB | Latency 5.7ms
+Epoch 2/3 | Step   400 | Loss 6.8104 | Acc 0.19% | GPU 0% | VRAM 2732MB | Latency 5.0ms
+Epoch 2/3 | Step   500 | Loss 6.8065 | Acc 0.21% | GPU 0% | VRAM 2732MB | Latency 4.8ms
+Epoch 2/3 | Step   600 | Loss 6.8042 | Acc 0.21% | GPU 0% | VRAM 2732MB | Latency 4.9ms
+Epoch 2/3 | Step   700 | Loss 6.8017 | Acc 0.22% | GPU 0% | VRAM 2732MB | Latency 4.6ms
+Epoch 2/3 | Step   800 | Loss 6.7991 | Acc 0.23% | GPU 0% | VRAM 2732MB | Latency 4.7ms
+Epoch 2/3 | Step   900 | Loss 6.7976 | Acc 0.23% | GPU 0% | VRAM 2732MB | Latency 4.7ms
+Epoch 2/3 | Step  1000 | Loss 6.7959 | Acc 0.22% | GPU 6% | VRAM 2732MB | Latency 5.0ms
+Epoch 2/3 | Step  1100 | Loss 6.7921 | Acc 0.23% | GPU 0% | VRAM 2732MB | Latency 4.6ms
+Epoch 2/3 | Step  1200 | Loss 6.7893 | Acc 0.24% | GPU 2% | VRAM 2732MB | Latency 4.8ms
+Epoch 2/3 | Step  1300 | Loss 6.7852 | Acc 0.24% | GPU 0% | VRAM 2732MB | Latency 4.7ms
+Epoch 2/3 | Step  1400 | Loss 6.7820 | Acc 0.24% | GPU 0% | VRAM 2732MB | Latency 4.0ms
+Epoch 2/3 | Step  1500 | Loss 6.7791 | Acc 0.24% | GPU 0% | VRAM 2732MB | Latency 4.1ms
+Epoch 2/3 | Step  1600 | Loss 6.7747 | Acc 0.25% | GPU 6% | VRAM 2732MB | Latency 4.0ms
+Epoch 2/3 | Step  1700 | Loss 6.7717 | Acc 0.25% | GPU 0% | VRAM 2732MB | Latency 4.1ms
+Epoch 2/3 | Step  1800 | Loss 6.7673 | Acc 0.26% | GPU 0% | VRAM 2732MB | Latency 4.3ms
+Epoch 2/3 | Step  1900 | Loss 6.7627 | Acc 0.26% | GPU 6% | VRAM 2732MB | Latency 4.1ms
+  Running validation...
+  Val step 0/782
+  Val step 50/782
+  Val step 100/782
+  Val step 150/782
+  Val step 200/782
+  Val step 250/782
+  Val step 300/782
+  Val step 350/782
+  Val step 400/782
+  Val step 450/782
+  Val step 500/782
+  Val step 550/782
+  Val step 600/782
+  Val step 650/782
+  Val step 700/782
+  Val step 750/782
+  Val Acc : 0.38%
+==================================================
+Epoch 2 Summary
+  Loss        : 0.6752
+  Train Acc   : 0.26%
+  Val Acc     : 0.38%
+  Throughput  : 78 img/s
+  GPU Util    : 0.7%
+  Idle Time   : 99.3%
+  VRAM Used   : 2732 MB
+  VRAM Free   : 79188 MB
+  Latency     : 4.6ms
+  Time        : 27.3 min
+==================================================
+Epoch 3/3 | Step     0 | Loss 6.6434 | Acc 0.00% | GPU 3% | VRAM 2732MB | Latency 4.7ms
+Epoch 3/3 | Step   100 | Loss 6.6291 | Acc 0.23% | GPU 0% | VRAM 2732MB | Latency 3.9ms
+Epoch 3/3 | Step   200 | Loss 6.6229 | Acc 0.30% | GPU 0% | VRAM 2732MB | Latency 3.9ms
+Epoch 3/3 | Step   300 | Loss 6.6201 | Acc 0.31% | GPU 0% | VRAM 2732MB | Latency 3.7ms
+Epoch 3/3 | Step   400 | Loss 6.6109 | Acc 0.34% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step   500 | Loss 6.6085 | Acc 0.37% | GPU 0% | VRAM 2732MB | Latency 4.1ms
+Epoch 3/3 | Step   600 | Loss 6.6021 | Acc 0.38% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step   700 | Loss 6.5958 | Acc 0.40% | GPU 6% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step   800 | Loss 6.5912 | Acc 0.40% | GPU 0% | VRAM 2732MB | Latency 3.9ms
+Epoch 3/3 | Step   900 | Loss 6.5854 | Acc 0.40% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1000 | Loss 6.5810 | Acc 0.41% | GPU 0% | VRAM 2732MB | Latency 3.7ms
+Epoch 3/3 | Step  1100 | Loss 6.5750 | Acc 0.43% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1200 | Loss 6.5698 | Acc 0.44% | GPU 6% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1300 | Loss 6.5638 | Acc 0.43% | GPU 0% | VRAM 2732MB | Latency 3.7ms
+Epoch 3/3 | Step  1400 | Loss 6.5582 | Acc 0.45% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1500 | Loss 6.5527 | Acc 0.46% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1600 | Loss 6.5463 | Acc 0.47% | GPU 0% | VRAM 2732MB | Latency 3.9ms
+Epoch 3/3 | Step  1700 | Loss 6.5399 | Acc 0.49% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1800 | Loss 6.5344 | Acc 0.50% | GPU 0% | VRAM 2732MB | Latency 3.8ms
+Epoch 3/3 | Step  1900 | Loss 6.5287 | Acc 0.51% | GPU 0% | VRAM 2732MB | Latency 4.3ms
+  Running validation...
+  Val step 0/782
+  Val step 50/782
+  Val step 100/782
+  Val step 150/782
+  Val step 200/782
+  Val step 250/782
+  Val step 300/782
+  Val step 350/782
+  Val step 400/782
+  Val step 450/782
+  Val step 500/782
+  Val step 550/782
+  Val step 600/782
+  Val step 650/782
+  Val step 700/782
+  Val step 750/782
+  Val Acc : 0.96%
+==================================================
+Epoch 3 Summary
+  Loss        : 0.6518
+  Train Acc   : 0.52%
+  Val Acc     : 0.96%
+  Throughput  : 81 img/s
+  GPU Util    : 0.7%
+  Idle Time   : 99.3%
+  VRAM Used   : 2732 MB
+  VRAM Free   : 79188 MB
+  Latency     : 4.1ms
+  Time        : 26.3 min
+==================================================
+Done. Results saved → logs/baseline_alexnet_metrics.csv
+Trace saved → logs/profile_traces/baseline_alexnet
+Job finished : Thu 21 May 09:44:33 WEST 2026
